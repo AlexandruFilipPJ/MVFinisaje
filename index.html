@@ -1,0 +1,336 @@
+
+<!DOCTYPE html>
+<html lang="ro" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO BAZĂ -->
+    <title>MV Finisaje Oradea | Amenajări Interioare și Finisaje de Lux Bihor</title>
+    <meta name="description" content="MV Finisaje Oradea - Servicii profesionale de amenajări interioare în județul Bihor. Gletuire mecanică, montaj gresie/faianță, rigips și renovări complete la cheie.">
+    <meta name="keywords" content="amenajari interioare oradea, finisaje oradea, renovari apartamente bihor, gresie faianta oradea, glet mecanic bihor, echipa finisaje oradea">
+    <meta name="author" content="MV Finisaje">
+    
+    <!-- OPEN GRAPH (Pentru Facebook/WhatsApp) -->
+    <meta property="og:title" content="MV Finisaje Oradea | Calitate în Amenajări">
+    <meta property="og:description" content="Transformăm casa ta în Oradea și Bihor. Finisaje de interior profesionale.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mvfinisaje.ro">
+
+    <!-- GOOGLE ANALYTICS (Înlocuiește G-XXXXXXXXXX cu codul tău din contul Analytics) -->
+    <!--
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    -->
+
+    <!-- DATE STRUCTURATE (SCHEMA.ORG) PENTRU SEO LOCAL -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "MV Finisaje Oradea",
+      "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2069",
+      "@id": "https://mvfinisaje.ro",
+      "url": "https://mvfinisaje.ro",
+      "telephone": "+407XXXXXXXX",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Oradea",
+        "addressLocality": "Oradea",
+        "postalCode": "410000",
+        "addressRegion": "Bihor",
+        "addressCountry": "RO"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 47.05,
+        "longitude": 21.93
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+        ],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/mvfinisaje",
+        "https://www.instagram.com/mvfinisaje"
+      ]
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
+        .glass { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px); }
+        .gallery-item.hidden { display: none; }
+        .skeleton { background: linear-gradient(90deg, #f1f5f9 25%, #f8fafc 50%, #f1f5f9 75%); background-size: 200% 100%; animation: loading 1.5s infinite; }
+        @keyframes loading { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+        .video-container video { object-fit: cover; width: 100%; height: 100%; background: #000; }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "react/": "https://esm.sh/react@^19.2.3/"
+  }
+}
+</script>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- Configurație Tehnică -->
+    <script>
+        const CONFIG = {
+            DRIVE_JSON_URL: "https://script.google.com/macros/s/AKfycbxTd-olra8UTO3aBCUt0zFwil8AaeAGXbyBZLGRczm36x0jwUUzArI7re2cnLhRMsVv/exec", 
+            FALLBACK_IMAGES: [
+                { type: 'photo', url: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1000', title: 'Living Modern Oradea' },
+                { type: 'photo', url: 'https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=1000', title: 'Finisaje Lux Bihor' }
+            ]
+        };
+    </script>
+
+    <!-- Navigație -->
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 py-5">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-2">
+                    <div class="p-2 rounded-lg bg-orange-600">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"></path></svg>
+                    </div>
+                    <span id="logo-text" class="text-xl font-bold tracking-tighter text-white">MV <span class="text-orange-600">FINISAJE</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#acasa" class="nav-link text-sm font-medium text-white/90 hover:text-orange-500 transition-colors">Acasă</a>
+                    <a href="#despre-noi" class="nav-link text-sm font-medium text-white/90 hover:text-orange-500 transition-colors">Despre Noi</a>
+                    <a href="#servicii" class="nav-link text-sm font-medium text-white/90 hover:text-orange-500 transition-colors">Servicii</a>
+                    <a href="#galerie" class="nav-link text-sm font-medium text-white/90 hover:text-orange-500 transition-colors">Galerie</a>
+                    <a href="#contact" class="nav-link text-sm font-medium text-white/90 hover:text-orange-500 transition-colors">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-white p-2">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t absolute w-full left-0 shadow-xl">
+            <div class="px-4 pt-2 pb-6 space-y-1 text-center">
+                <a href="#acasa" class="mobile-link block py-3 text-base font-medium text-slate-700">Acasă</a>
+                <a href="#despre-noi" class="mobile-link block py-3 text-base font-medium text-slate-700">Despre Noi</a>
+                <a href="#servicii" class="mobile-link block py-3 text-base font-medium text-slate-700">Servicii</a>
+                <a href="#galerie" class="mobile-link block py-3 text-base font-medium text-slate-700">Galerie</a>
+                <a href="#contact" class="mobile-link block py-3 text-base font-medium text-slate-700">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="acasa" class="relative h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2069');">
+            <div class="absolute inset-0 bg-slate-900/60 backdrop-blur-[2px]"></div>
+        </div>
+        <div class="relative z-10 max-w-5xl mx-auto px-4 text-center text-white">
+            <h1 class="text-4xl md:text-7xl font-bold mb-6 leading-tight">Amenajări Interioare <br><span class="text-orange-500">Oradea & Bihor</span></h1>
+            <p class="text-lg md:text-xl mb-10 text-slate-200 max-w-2xl mx-auto font-light uppercase tracking-widest">Finisaje profesionale pentru case și apartamente.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#galerie" class="px-8 py-4 bg-orange-600 hover:bg-orange-700 text-white font-semibold rounded-full transition-all transform hover:scale-105">Portofoliu Lucrări</a>
+                <a href="#contact" class="px-8 py-4 bg-white/10 hover:bg-white/20 backdrop-blur-md text-white font-semibold rounded-full border border-white/30 transition-all transform hover:scale-105">Cere Ofertă Oradea</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Despre Noi -->
+    <section id="despre-noi" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1581291417004-6e739845cfc7?q=80&w=2070" alt="Echipa finisaje Oradea" class="rounded-3xl shadow-2xl z-10 relative">
+                    <div class="absolute -bottom-6 -right-6 bg-orange-600 p-8 rounded-2xl text-white shadow-xl z-20 hidden md:block">
+                        <p class="text-4xl font-bold">100+</p>
+                        <p class="text-sm font-medium uppercase">Proiecte Finalizate</p>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="text-3xl md:text-5xl font-bold mb-6">Expertiză Locală în <span class="text-orange-600">Amenajări</span></h2>
+                    <p class="text-slate-600 text-lg mb-6 leading-relaxed">
+                        Suntem <strong>MV Finisaje</strong>, o echipă tânără dar experimentată din <strong>Oradea</strong>, specializată în aducerea la viață a proiectelor de design interior. Acoperim întreg județul <strong>Bihor</strong>.
+                    </p>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center gap-3">
+                            <div class="bg-orange-100 p-1 rounded-full text-orange-600"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg></div>
+                            <span class="font-medium">Consultanță gratuită pentru alegerea materialelor în Oradea.</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <div class="bg-orange-100 p-1 rounded-full text-orange-600"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg></div>
+                            <span class="font-medium">Garanția lucrării și termene de execuție scurte.</span>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-orange-600 font-bold flex items-center gap-2 hover:gap-4 transition-all">Află mai multe <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicii -->
+    <section id="servicii" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+             <h2 class="text-3xl md:text-5xl font-bold mb-4">Finisaje Profesionale Bihor</h2>
+             <div class="w-20 h-1 bg-orange-600 mx-auto mb-12"></div>
+             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                 <div class="bg-white p-10 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl transition-all">
+                     <h3 class="text-xl font-bold mb-4">Gletuire Mecanizată</h3>
+                     <p class="text-slate-600">Pereți perfect drepți și fini, pregătiți pentru orice tip de vopsea sau tapet.</p>
+                 </div>
+                 <div class="bg-white p-10 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl transition-all">
+                     <h3 class="text-xl font-bold mb-4">Gresie & Faianță</h3>
+                     <p class="text-slate-600">Montaj precis de orice dimensiuni, inclusiv plăci ceramice XXL în Oradea.</p>
+                 </div>
+                 <div class="bg-white p-10 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl transition-all">
+                     <h3 class="text-xl font-bold mb-4">Renovări la Cheie</h3>
+                     <p class="text-slate-600">Ne ocupăm de tot procesul, de la decopertare până la montajul plintelor și lustrelor.</p>
+                 </div>
+             </div>
+        </div>
+    </section>
+
+    <!-- Galerie -->
+    <section id="galerie" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+                <div>
+                    <h2 class="text-3xl md:text-5xl font-bold mb-4">Lucrări Recente</h2>
+                    <p class="text-slate-600" id="gallery-status">Sincronizare cu portofoliul...</p>
+                </div>
+                <div class="flex bg-slate-100 p-1 rounded-full space-x-2">
+                    <button class="filter-btn active px-6 py-2 rounded-full text-sm font-bold bg-orange-600 text-white shadow-md" data-filter="all">Toate</button>
+                    <button class="filter-btn px-6 py-2 rounded-full text-sm font-bold text-slate-500" data-filter="photo">Foto</button>
+                    <button class="filter-btn px-6 py-2 rounded-full text-sm font-bold text-slate-500" data-filter="video">Video</button>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="gallery-grid">
+                <div class="skeleton aspect-[4/3] rounded-3xl"></div>
+                <div class="skeleton aspect-[4/3] rounded-3xl"></div>
+                <div class="skeleton aspect-[4/3] rounded-3xl"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-24 bg-slate-900 text-white text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-bold mb-8">Solicită Ofertă Gratuită</h2>
+            <p class="mb-12 text-slate-400">Oferim devize clare și termene precise pentru proiectele de amenajare din Oradea.</p>
+            <a href="tel:07XXXXXXXX" class="inline-block px-10 py-6 bg-orange-600 hover:bg-orange-700 rounded-3xl text-3xl font-bold transition-all transform hover:scale-105">
+                07XX XXX XXX
+            </a>
+            <p class="mt-6 text-slate-500">Oradea, Județul Bihor</p>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 text-white py-12 text-center border-t border-white/5">
+        <p class="text-slate-500">&copy; <span id="year"></span> MV Finisaje Oradea. Toate drepturile rezervate.</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Helper pentru link-uri video Google Drive
+        function fixDriveUrl(url) {
+            if (url.includes('drive.google.com')) {
+                const id = url.match(/\/d\/(.+?)\//)?.[1] || url.match(/id=(.+?)(&|$)/)?.[1];
+                return id ? `https://drive.google.com/uc?export=download&id=${id}` : url;
+            }
+            return url;
+        }
+
+        function renderGallery(items) {
+            const grid = document.getElementById('gallery-grid');
+            grid.innerHTML = '';
+            
+            if (!items || items.length === 0) items = CONFIG.FALLBACK_IMAGES;
+
+            items.forEach((item, index) => {
+                const element = document.createElement('div');
+                element.className = `gallery-item ${item.type} relative overflow-hidden rounded-3xl aspect-[4/3] shadow-lg group`;
+                element.style.animation = `fadeInUp 0.6s ease-out forwards ${index * 0.1}s`;
+                element.style.opacity = "0";
+
+                const mediaUrl = fixDriveUrl(item.url);
+                
+                let mediaHtml = '';
+                if (item.type === 'video') {
+                    mediaHtml = `
+                        <video loop muted playsinline class="w-full h-full object-cover group-hover:scale-105 transition-transform" onmouseover="this.play()" onmouseout="this.pause()">
+                            <source src="${mediaUrl}" type="video/mp4">
+                        </video>
+                        <div class="absolute top-4 right-4 bg-orange-600 text-white p-2 rounded-full shadow-lg z-20">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.333-5.89a1.5 1.5 0 000-2.538L6.3 2.841z"></path></svg>
+                        </div>
+                    `;
+                } else {
+                    mediaHtml = `<img src="${mediaUrl}" class="w-full h-full object-cover group-hover:scale-110 transition-transform">`;
+                }
+
+                element.innerHTML = `
+                    ${mediaHtml}
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <p class="text-white font-bold text-lg">${item.title}</p>
+                    </div>
+                `;
+                grid.appendChild(element);
+            });
+            document.getElementById('gallery-status').textContent = `Am găsit ${items.length} lucrări în portofoliu.`;
+        }
+
+        async function fetchGallery() {
+            try {
+                const response = await fetch(CONFIG.DRIVE_JSON_URL);
+                const data = await response.json();
+                renderGallery(data);
+            } catch (e) {
+                console.warn("Eroare incarcare galerie, folosim fallback.");
+                renderGallery(CONFIG.FALLBACK_IMAGES);
+            }
+        }
+
+        fetchGallery();
+
+        // Mobile Menu
+        const mobileBtn = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileBtn.onclick = () => mobileMenu.classList.toggle('hidden');
+        document.querySelectorAll('.mobile-link').forEach(l => l.onclick = () => mobileMenu.classList.add('hidden'));
+
+        // Navbar Scroll
+        window.onscroll = () => {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 50) nav.classList.add('glass', 'shadow-md', 'py-3');
+            else nav.classList.remove('glass', 'shadow-md', 'py-3');
+        };
+
+        // Filtre
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.onclick = (e) => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('bg-orange-600', 'text-white', 'shadow-md'));
+                e.target.classList.add('bg-orange-600', 'text-white', 'shadow-md');
+                const filter = e.target.dataset.filter;
+                document.querySelectorAll('.gallery-item').forEach(item => {
+                    item.classList.toggle('hidden', filter !== 'all' && !item.classList.contains(filter));
+                });
+            };
+        });
+    </script>
+    <style>@keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }</style>
+</body>
+</html>
